@@ -1,0 +1,11 @@
+@import  "assets/flexboxgrid-6.3.1/";
+*{   
+    font-family: 'Oswald', sans-serif;
+   
+    text-decoration: none;
+     
+ }  
+h1,h2{
+    font-family: 'Miriam Libre', sans-serif;
+
+}

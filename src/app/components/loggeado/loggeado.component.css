@@ -1,0 +1,36 @@
+.contNav{
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -90%);  
+}
+
+.card-deck{
+    padding: 3%;
+}
+figure{
+    padding: 0%;
+    margin: 0%;
+}
+h1{   
+    font-weight: 700;
+    padding: 1em 0;
+}
+.centrado{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+   
+}
+
+
+.sub{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    margin:3px;
+}

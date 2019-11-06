@@ -1,0 +1,35 @@
+.container{
+    background-color: #e3e4e6;
+    border-radius: 5px;
+    margin: 10%;  
+}
+ .container {
+	max-width: 450px;
+	height: auto;
+	background-color: #EFEFEF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+	
+}
+.form__top {
+   width: 100%;
+   text-align: center;
+   padding: 2rem 0 1rem;
+   margin-bottom: 1rem;
+}
+.form__top h2 {
+   font-weight: bold;
+   color: black;
+   font-size: 18px;
+}
+h2 {
+   font-family: 'Miriam Libre', sans-serif;
+   color:black;
+}
+.form__reg {
+   padding: 0 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
