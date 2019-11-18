@@ -10,24 +10,16 @@
         <li class="nav-item routerLinkActive=active">
             <a class="nav-link" routerLink="/home" style="color: white;">home</a>
           </li>
-          
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" routerLink="Servicios"style="color: white;" id="Servicios" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Servicios
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" routerLink="Servicios">Alquiler Libro</a>
-                <a class="dropdown-item" routerLink="/registro">Registrarme</a>
-                <a class="dropdown-item" routerLink="/login">Iniciar Sesión</a>
-              </div>
+          <li class="nav-item routerLinkActive=active">
+              <a class="nav-link" routerLink="/Servicios" style="color: white;">Servicios</a>
             </li>
+          
   
       <li class="nav-item routerLinkActive=active">
-        <a class="nav-link" [routerLink]="['Acerca']" style="color: white;">Acerca</a>
+        <a class="nav-link" [routerLink]="['/Acerca']" style="color: white;">Acerca</a>
       </li>
       <li class="nav-item routerLinkActive=active">
-        <a class="nav-link" [routerLink]="['publicar']" style="color: white;">publicar</a>
+        <a class="nav-link" [routerLink]="['/publicar']" style="color: white;">publicar</a>
       </li>
       
               
@@ -43,7 +35,7 @@
       <ul class="navbar-nav ">
       <form class="form-inline  ">
         <li class="nav-item routerLinkActive=active">
-    <a class="nav-link" routerLink="login" style="color: white;" >Iniciar Sesion</a>
+    <a class="nav-link" routerLink="/login" style="color: white;" >Iniciar Sesion</a>
   </li>
   <li class="nav-item routerLinkActive=active">
       <a class="nav-link" routerLink="/registro"style="color: white;">Registrarme</a>

@@ -1,55 +1,57 @@
+<app-header></app-header>
+<html>
 <body>
   <div class="container">
-    
-    <div class="form__top">
-        <h2>Publicar Libro</h2>
-      </div>
-    <form class="form__reg" #FormPublication="ngForm" (ngSubmit) = "register()" action="">
-  <div class="form-group">
-    <label for="nombre">nombre:</label>
-    <input ngModel="name" type="text" class="form-control" id="name">
-  </div>
-  
-  <div class="form-group">
-    <label for="descripción">descripción:</label>
-    <input type="text" ngModel="description" class="form-control" id="description">
-  </div> 
-  
-  <div class="form-group">
-      <label for="Sinopsis">Sinopsis:</label>
-      <input type="text" ngModel="synopsis" class="form-control" id="synopsis">
-    </div> 
-    <div class="form-group">
-        <label >Fecha de Publicación</label>
-        <input type="date" ngModel="publication_date" name="publication_date" min="1000-01-01"  max="3000-12-31" class="form-control" required>
-       </div>
-
-    <div class="form-group">
-      <label for="exampleFormControlFile1">Agregar Foto</label>
-      <input type="file" ngModel="add_photo" class="form-control-file" id="add_photo">
-    </div>
-  
-    <div class="form-group">
-        <label for="Autor">Autor:</label>
-        <input type="text" ngModel="autor" class="form-control" id="autor">
-      </div> 
-    
-      <div class="form-group ">
-          <label for="inputState">Genero</label>
-          <select id="genre" ngModel="genre" class="form-control">
-              <option>Seleccione un Genero</option>
-              <option>Comedia</option>
-              <option>suspenso</option>
-              <option>drama</option>
-              <option>Acción</option>
-          </select>
-        </div>
-  
-
-                
-              <button type="button" class="btn btn-primary btn-lg">Publicar Mi Libro</button>
-  
-  
-              </form>
+        <div class="d-flex justify-content-center h-100">
+            <div class="card">
+              <div class="card-header">
+                <h2 style="color: white; text-align: justify;">Publicar Libro</h2>
+              </div>
+              <div class="card-body">  
+                <form>
+                    <div class="form-group">
+                        <label for="nombre" style="color: white;">Nombre:</label>
+                        <input ngModel="name" type="text" class="form-control" id="name" required>
+                     </div>
+                    <div class="form-group">
+                        <label for="descripción"style="color: white;">Descripción:</label>
+                        <input type="text" ngModel="description" class="form-control" id="description" required>
+                    </div> 
+                    <div class="form-group">
+                          <label for="Sinopsis"style="color: white;">Sinopsis:</label>
+                          <input type="text" ngModel="synopsis" class="form-control" id="synopsis" required>
+                    </div> 
+                    <div class="form-group">
+                            <label style="color: white;">Fecha de Publicación</label>
+                            <input type="date" ngModel="publication_date" name="publication_date" min="1000-01-01"  max="3000-12-31" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                          <label for="exampleFormControlFile1"style="color: white;">Agregar Foto</label>
+                          <input type="file" ngModel="add_photo" class="form-control-file" id="add_photo" required> 
+                    </div>
+                    <div class="form-group">
+                            <label for="Autor"style="color: white;">Autor:</label>
+                            <input type="text" ngModel="autor" class="form-control" id="autor" required>
+                    </div> 
+                    <div class="form-group ">
+                              <label for="inputState"style="color: white;">Genero</label>
+                              <select id="genre" ngModel="genre" class="form-control">
+                                  <option>Seleccione un Genero</option>
+                                  <option>Comedia</option>
+                                  <option>suspenso</option>
+                                  <option>drama</option>
+                                  <option>Acción</option>
+                              </select>
+                    </div>
+                 
+                     <div class="button" >
+                        <button type="submit" class="btn btn-primary">Publicar mi Libro</button>
+                    </div>
+                </form>
+              </div>
             </div>
+</div>
+  </div>
+
   </body>
+  </html>

@@ -1,7 +1,4 @@
-/*body{
-   background-image: url('http://getwallpapers.com/wallpaper/full/3/a/9/271754.jpg');
-}*/
-
+/**
 .container{
     background-color: #e3e4e6;
     border-radius: 5px;
@@ -36,4 +33,67 @@ h2 {
    flex-direction: column;
    justify-content: center;
 
-}
+}*/
+html,body{
+   background-image: url('http://getwallpapers.com/wallpaper/full/f/9/d/285366.jpg');
+   width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100%;
+   font-family: 'Numans', sans-serif;
+   }
+   
+   .container{
+      padding: 5%;
+   height: 100%;
+   align-content: center;
+   }
+   
+   .card{
+   height: 500;
+   margin-top: auto;
+   margin-bottom: auto;
+   width: 400px;
+   background-color: rgba(0,0,0,0.5) !important;
+   }
+   
+   .social_icon span{
+   font-size: 60px;
+   margin-left: 10px;
+   color: #2e6ce7;
+   }
+   
+   
+   .card-header h3{
+   color: white;
+   }
+   
+   
+   
+   .input-group-prepend span{
+   width: 50px;
+   background-color:#2e6ce7;
+   color: black;
+   border:0 !important;
+   }
+   
+   input:focus{
+   outline: 0 0 0 0  !important;
+   box-shadow: 0 0 0 0 !important;
+   
+   }
+
+   .button{
+      text-align: center;
+   }
+   
+   .login_btn{
+   color: black;
+   background-color: #2e6ce7;
+   width: 100px;
+   }
+   
+   .login_btn:hover{
+   color: black;
+   background-color: white;
+   }
