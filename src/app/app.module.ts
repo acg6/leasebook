@@ -15,6 +15,9 @@ import { PublicarLibroComponent } from './components/publicar-libro/publicar-lib
 import { LoggeadoComponent } from './components/loggeado/loggeado.component';
 import { InfoLibroComponent } from './components/info-libro/info-libro.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
+import { MybooksComponent } from './components/mybooks/mybooks.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { FooterComponent } from './components/footer/footer.component';
     PublicarLibroComponent,
     LoggeadoComponent,
     InfoLibroComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent,
+    ResetPasswordComponent,
+    MybooksComponent
   ],
   imports: [
     BrowserModule,

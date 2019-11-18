@@ -9,6 +9,8 @@ import {PublicarLibroComponent} from './components/publicar-libro/publicar-libro
 import {LoggeadoComponent} from './components/loggeado/loggeado.component'
 import {InfoLibroComponent} from './components/info-libro/info-libro.component'
 import {LoginComponent} from './components/login/login.component'
+import {ResetPasswordComponent} from './components/reset-password/reset-password.component'
+import {MybooksComponent} from './components/mybooks/mybooks.component'
 const routes: Routes = [
   {
  path:"home",
@@ -42,6 +44,14 @@ const routes: Routes = [
   {
     path:"info",
     component:InfoLibroComponent
+  },
+  {
+    path:"reset",
+    component:ResetPasswordComponent
+  },
+  {
+    path:"mybooks",
+    component:MybooksComponent
   },
   {
     path:'**',
